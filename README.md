@@ -6,6 +6,6 @@
 
 ## Alteracoes Feitas na Refatoração
 
-`SRP`: Movi o cálculo da média de notas para a classe CalculadoraMediaNotas para que essa responsabilidade esteja separada e possa ser reutilizada.
+`Com base no SRP`: Movi o cálculo da média de notas para a classe CalculadoraMediaNotas para que essa responsabilidade esteja separada e possa ser reutilizada.
 
-`OCP`: Criei a interface CriterioBomFornecedor e sua implementação CriterioBomFornecedorPorNota para permitir que a lógica de decisão se o fornecedor é bom possa ser facilmente modificada ou extendida no futuro sem alterar a classe AvaliadorNovaNota.
+`Com base no OCP`: Criei a interface CriterioBomFornecedor e sua implementação CriterioBomFornecedorPorNota para permitir que a lógica de decisão se o fornecedor é bom possa ser facilmente modificada ou extendida no futuro sem alterar a classe AvaliadorNovaNota.
